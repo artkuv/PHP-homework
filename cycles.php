@@ -37,3 +37,7 @@ foreach ($employees as $name => $value) {
 }
 
 echo "<br>Summ of values: $summ<br>";
+
+$sorted = $employees;
+arsort($sorted);
+var_dump($sorted);
